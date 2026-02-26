@@ -1,9 +1,9 @@
 # QDay Prize Submission
-QDay Prize Submission
+[QDay Prize](https://www.qdayprize.org/) Submission
 
 ## About
 
-This is an ECDLP Algorithm that uses the Qiskit Framework to define the Quantum Circuit but it executes it on Automatski' Quantum Computers. The code is based off the Qiskit ECDLP project.
+This is an ECDLP Algorithm that uses the Qiskit Framework to define the Quantum Circuit but it executes it on Automatski' Quantum Computers. The code is based off the [Qiskit ECDLP project](https://p51lee.github.io/quantum-computing/qiskit-ecdlp/). It was executed on the 7-bit curve given by the QDay Prize.
 
 ### Intellectual Property
 All rights are reserved by Aditya Yadav for Aditya-authored components of this codebase. Rights to third-party or upstream components remain with their respective original authors and licensors.
@@ -21,7 +21,7 @@ pip install quaspy requests
 
 Run the code
 ```sh
-python RSA-Shors-Benchmark-Main.py
+python ecdlp_with_qiskit_and_automatski_quantum_computer.py
 ```
 
 ## Results
@@ -41,4 +41,4 @@ point_p = (48, 60)  #Generator POINT
 private_key = 56
 ```
 
-![](https://raw.githubusercontent.com/adityayadav76/the-first-quantum-cryptography-benchmarks/refs/heads/main/Runs/RSA/Shors/67297.png)
+![](https://raw.githubusercontent.com/adityayadav76/qday_prize_submission/refs/heads/main/qdayprize-7bit-curve.png)
