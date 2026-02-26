@@ -16,7 +16,7 @@ Install dependencies:
 ```sh
 pip install qiskit==1.4.2 qiskit-aer==0.16 
 pip install https://p51lee.github.io/assets/python/wheel/qiskit_ecdlp-0.1-py3-none-any.whl
-pip install quaspy 
+pip install quaspy requests
 ```
 
 Run the code
