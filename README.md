@@ -42,6 +42,15 @@ backend = AutomatskiKomencoQiskit(
 )
 ```
 
+## The Quantum Computer we used
+
+We used Automatski' Quantum Computer which has the below specs/features
+- 170 logical qubits
+- 10m gate depth
+- 99.999% fidelity
+- 'n' milli seconds gate execution time
+- 43 minutes coherence
+
 ## Running ECDLP for different curves of the competition
 
 ### 7 bit curve from the QDay Prize Competition (see curves.json file)
