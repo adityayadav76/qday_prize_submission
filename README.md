@@ -64,7 +64,7 @@ private_key = 56
 Search for start_guess and set it to 24
 ```sh
 start_guess= 24,
-'''
+```
 
 so that the minimum ancilla finding routine doesn't spend a long time searching for the correct number of ancilla qubits to be used in building the Quantum Circuit. This is a workaround.
 
