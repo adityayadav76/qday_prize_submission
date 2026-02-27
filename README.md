@@ -79,3 +79,28 @@ so that the minimum ancilla finding routine doesn't spend a long time searching 
 
 ![](https://raw.githubusercontent.com/adityayadav76/qday_prize_submission/refs/heads/main/qdayprize-7bit-curve.png)
 
+### 8 bit curve from the QDay Prize Competition (see curves.json file)
+
+Set these values in the code
+```sh
+EC_MODULUS = 163
+EC_A = 0 #fixed for the QDayPrize
+EC_B = 7 #fixed for the QDayPrize
+EC_ORDER = 139
+
+NUM_BITS = math.ceil(math.log2(EC_MODULUS))
+
+N_COUNT = 2 * NUM_BITS + 2
+
+point_p = (112, 53)  #Generator POINT
+private_key = 103
+```
+
+Search for start_guess and set it to 29
+```sh
+start_guess= 29,
+```
+
+so that the minimum ancilla finding routine doesn't spend a long time searching for the correct number of ancilla qubits to be used in building the Quantum Circuit. This is a workaround.
+
+![](https://raw.githubusercontent.com/adityayadav76/qday_prize_submission/refs/heads/main/qdayprize-8bit-curve.png)
