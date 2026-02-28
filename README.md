@@ -11,8 +11,9 @@ Aditya has a B.S. in Mechanical Engineering and CFD and an M.S. in Robotics & Im
 
 He is the CEO and Founder of Automatski a full stack Quantum Computing company which makes Quantum Annealers and Gate Based Quantum Computers.
 
-aditya@automatski.com
-alternate: aditya.yadav@gmail.com
+official: aditya@automatski.com
+
+personal: aditya.yadav@gmail.com
 
 
 ## Intellectual Property
