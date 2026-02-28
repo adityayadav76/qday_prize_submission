@@ -3,7 +3,7 @@
 
 ## About
 
-This is an ECDLP Algorithm that uses the Qiskit Framework to define the Quantum Circuit but it executes it on Automatski' Quantum Computers. The code is based off the [Qiskit ECDLP project](https://p51lee.github.io/quantum-computing/qiskit-ecdlp/). It was executed on the 7-bit curve given by the QDay Prize. All curves are listed in the curves.json file and the python code to generate the curves is contained in the curves.py file. AutomatskiKomencoQiskit.py contains the API Bindings to run circuits on Automatski' systems.
+This is an ECDLP Algorithm that uses the Qiskit Framework to define the Quantum Circuit but it executes it on Automatski's Quantum Computers. The code is based off the [Qiskit ECDLP project](https://p51lee.github.io/quantum-computing/qiskit-ecdlp/). It was executed on the 7-bit curve given by the QDay Prize. All curves are listed in the curves.json file and the python code to generate the curves is contained in the curves.py file. AutomatskiKomencoQiskit.py contains the API Bindings to run circuits on Automatski' systems.
 
 ## The Author
 
@@ -36,7 +36,7 @@ Command to run the code
 python ecdlp_with_qiskit_and_automatski_quantum_computer.py
 ```
 
-To run the code you will also need the IP Address and Port Number of the Automatski' Quantum Computer. Which is not publiclly available. So if the judges want to run the code they have to get in touch with Aditya who will then share the IP Address and Port Number.
+To run the code you will also need the IP Address and Port Number of the Automatski's Quantum Computer. Which is not publiclly available. So if the judges want to run the code they have to get in touch with Aditya who will then share the IP Address and Port Number.
 It will need to be entered as follows
 ```sh
 backend = AutomatskiKomencoQiskit(
@@ -47,8 +47,8 @@ backend = AutomatskiKomencoQiskit(
 
 ## The Quantum Computer we used
 
-We used Automatski' Quantum Computer which has the below specs/features
-- 170 logical qubits
+We used Automatski's Quantum Computer which has the below specs/features
+- 70 logical qubits
 - 10m gate depth
 - 99.999% fidelity
 - 'n' milli seconds gate execution time
