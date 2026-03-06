@@ -54,6 +54,16 @@ We used Automatski's Quantum Computer which has the below specs/features
 - 'n' milli seconds gate execution time
 - 43 minutes coherence
 
+## If you just want to run and verify the ECDLP Algorithm on your laptop
+
+And test the algorithm with a small 3-bit toy problem using the built in Qiskit Aer Simulator
+
+```sh
+python ecdlp_with_qiskit_and_simulator.py
+```
+
+![](https://raw.githubusercontent.com/adityayadav76/qday_prize_submission/refs/heads/main/simulator_output.png)
+
 ## Running ECDLP for different curves of the competition
 
 ### 7 bit curve from the QDay Prize Competition (see curves.json file)
